@@ -17,4 +17,10 @@ public class EstouroDePilha {
 			System.exit(0);
 		boo();
 	}	
+	/*
+	 * Observação: para estouro de memória (da JVM) basta executar a linha:
+	 * String[] ss = new String[Integer.MAX_VALUE-1];
+	 * O máximo de memória da JVM é normalmente 1024kb (para SO 64 bits)
+	 * A constante MAX_VALUE (2.147.483.647) para inteiros, em Java (32 bits).
+	 */
 }
