@@ -11,7 +11,7 @@ public class EstouroDePilha {
 	}	
 	public static void boo() {
 		q++;
-		// Put a lower valor to q in order to avoid:
+		// Put a lower value to q in order to avoid:
 		// Exception in thread "main" java.lang.StackOverflowError
 		if (q>250000)
 			System.exit(0);
