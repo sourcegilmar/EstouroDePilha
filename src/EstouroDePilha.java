@@ -22,6 +22,9 @@ public class EstouroDePilha {
 	 * simples e no método main(), executar a linha:
 	 * String[] ss = new String[Integer.MAX_VALUE-1];
 	 * O máximo de memória da JVM é normalmente 1024kb (para SO 64 bits)
-	 * A constante MAX_VALUE (2.147.483.647) para inteiros, em Java (32 bits).
+	 * A constante MAX_VALUE (2.147.483.647) é o limite superior para inteiros.
+	 * int é um tipo primitivo de 32 bits em Java.
+	 * O tipo String tem o comportamento de uma matriz (de tipo char), 
+	 * o intervalo máximo é: 2147483647. (comprimento máximo)
 	 */
 }
